@@ -4,7 +4,7 @@ public class ReverseString {
         String letter = "";
         for(int i = 0; i < str.length(); i++) {
             letter = str.substring(i,i+1);
-            result += letter; 
+            result = letter + result; 
         }
         return result;
     }
